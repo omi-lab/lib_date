@@ -76,7 +76,7 @@ class year_month_day_last;
 class year_month_weekday;
 class year_month_weekday_last;
 
-// date composition operators
+// date scene operators
 
 CONSTCD11 year_month operator/(const year& y, const month& m) NOEXCEPT;
 CONSTCD11 year_month operator/(const year& y, int          m) NOEXCEPT;

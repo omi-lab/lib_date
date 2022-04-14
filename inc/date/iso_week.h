@@ -62,7 +62,7 @@ class lastweek_weekday;
 class year_weeknum_weekday;
 class year_lastweek_weekday;
 
-// date composition operators
+// date scene operators
 
 CONSTCD11 year_weeknum operator/(const year& y, const weeknum& wn) NOEXCEPT;
 CONSTCD11 year_weeknum operator/(const year& y, int            wn) NOEXCEPT;
@@ -1600,7 +1600,7 @@ operator<<(std::basic_ostream<CharT, Traits>& os, const year_weeknum_weekday& yw
     return os << ywnwd.year() << '-' << ywnwd.weeknum() << '-' << ywnwd.weekday();
 }
 
-// date composition operators
+// date scene operators
 
 CONSTCD11
 inline
